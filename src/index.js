@@ -46,7 +46,7 @@ function checksTodoExists(request, response, next) {
 }
 
 function findUserById(request, response, next) {
-  const {id} = request.params;
+  const { id } = request.params;
 
   const user = users.find(u => u.id === id);
 
